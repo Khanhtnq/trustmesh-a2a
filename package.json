@@ -1,0 +1,32 @@
+{
+  "name": "agentic_web_trustmesh",
+  "version": "1.0.0",
+  "description": "TrustMesh A2A — Open Agentic Web Discovery (/.well-known/agent-card.json), W3C Ed25519 Verifiable Capability Credentials & Cryptographic SLA Settlement Protocol",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "trustmesh": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "agentic-web",
+    "a2a",
+    "did-key",
+    "did-web",
+    "verifiable-credentials",
+    "ed25519",
+    "sla-settlement",
+    "agent-card"
+  ],
+  "author": "Khanhtnq",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
